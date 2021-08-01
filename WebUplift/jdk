@@ -1,0 +1,59 @@
+.aisehe
+{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: rgb(13, 126, 73);
+    padding-top: 40px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+    
+   
+}
+
+.aisehe h1
+{
+  text-align: center;
+  font-family: IM Fell DW Pica SC;
+  font-size: 72px;
+  color: rgb(238, 123, 16);
+  text-decoration: rgb(235, 123, 16);
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  padding: 150px 200px;
+  transform: skew(0deg, 10deg) ;
+  
+}
+.aisehe img
+{
+    padding-left: 100px;
+    transform: skew(0deg, 10deg) ;
+}
+
+.skewbox
+{
+    padding: 100px 0px;
+   transform: skew(0deg, -10deg) translateY(-120px);
+}
+
+
+
+
+
+
+
+
+<div class="skewbox">
+<div class="aisehe">
+
+	<h1> One Big Step </h1>
+	<img src="Images/Header.png" alt="" width="700" height="200" class="image">
+
+</div>
+</div>

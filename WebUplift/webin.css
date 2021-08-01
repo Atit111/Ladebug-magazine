@@ -1,0 +1,625 @@
+
+/* font section */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@651;700&family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body
+{
+    
+    background-color: rgb(252, 241, 241);
+    margin: 1px 1px;
+
+}
+.article-1section
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: rgb(42, 165, 159);
+    border-style: double;
+    border-width: 10px;
+    background-color: antiquewhite;
+    box-shadow: -2px 2px 5px 4px gray;
+    margin: 5vh 3vw ;
+
+}
+
+
+.article-1section img
+{
+   padding: 50px 40px;
+  
+}
+
+.article-1section h1
+{
+    font-family: Cinzel Decorative;
+    font-size: 30px;
+    padding: 20px 230px;
+    word-spacing: 30px;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px  rgb(255, 0, 0);
+    
+    
+}
+.article-1section h1 span
+{
+    font-size: 56px;  
+    color: rgb(0, 0, 0);
+}
+
+hr.new
+{
+    margin: 2vh 4vw ;
+}
+
+ h2.subhead
+{
+    font-family: Caveat;
+    font-size: 39px;
+    text-align: right;
+    font-weight: 600;
+    
+    margin: 2vh 4vw ;
+}
+
+.regards
+{
+    
+    margin: 2vh 4vw ;
+}
+
+.regards p{
+    font-family: Cormorant Garamond;
+    font-size: larger;
+    word-spacing: 4px;
+    line-height: 30px;
+    border-left: 4mm ridge rgb(170, 50, 220, .6);
+    padding-left: 10px;
+}
+.regards span.name
+{
+    font-family:Dancing Script ;
+    font-size: larger;
+    color: rgb(46, 0, 252);
+}
+.regards span.tag
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background-color: rgb(13, 126, 73);
+    padding-top: 40px;
+    padding-bottom: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+    
+   
+}
+
+.container h1
+{
+  text-align: center;
+  font-family: IM Fell DW Pica SC;
+  font-size: 72px;
+  color: rgb(238, 123, 16);
+  text-decoration: rgb(235, 123, 16);
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  padding: 100px 100px;
+  padding-top: 20px;
+  text-shadow: 0px 0px 10px #141414;
+  word-spacing: 3px;
+  
+  
+}
+.container img
+{
+   margin-top: 120px;
+   
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+border-style: solid;
+border-color: yellow;
+border-width: 3px;
+   
+    
+}
+.container .content p
+{
+    padding: 50px 80px;
+    font-family: Cormorant Garamond ;
+    font-style: italic;
+    font-size: 38px;
+    max-width: 60%;
+    font-weight: 600;
+    line-height: 55px;
+    color: rgb(243, 203, 150);
+    text-shadow: 0px 0px 10px #141414;
+   
+}
+
+.skewbox
+{
+    display: flex;
+    padding: 100px 0px;
+   transform: skew(0deg, 5deg) translateY(-300px);
+   background-color: rgb(250, 230, 149);
+   position: relative;
+}
+
+.skewbox aside
+{
+    
+   transform: skew(0deg, -5deg) ;
+}
+.skewbox aside h1
+{
+    text-align: center;
+  font-family: IM Fell DW Pica SC;
+  font-size: 42px;
+  color: rgb(12, 129, 57);
+  text-decoration: rgb(12, 129, 57);
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  padding: 80px 120px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+
+.skewbox aside p
+{
+    padding: 20px 100px;
+    font-family: Cormorant Garamond ;
+    font-style: italic;
+    font-size: 38px;
+    max-width: 60%;
+    font-weight: 600;
+    line-height: 45px;
+    color: rgb(240, 63, 32);
+    text-shadow: 0px 0px 10px #ffb9b9;
+    word-spacing: 2px;
+}
+
+.skewbox img
+{
+    transform: skew(0deg, -5deg) ;
+    margin: 150px 50px;
+   margin-bottom: 30px;
+    display: block;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    border-style: solid;
+border-color: rgb(255, 0, 119);
+border-width: 3px;
+
+}
+.skewbox figcaption
+{
+    transform: skew(0deg, -5deg) ;
+    padding: 30px 50px;
+    border-left: 4mm ridge rgba(255, 0, 212, 0.6);
+    font-family:Dancing Script ;
+    font-size:24px;
+    
+    color: rgb(46, 0, 252);
+
+
+}
+
+.interactivemeet
+{
+    padding: 100px 0px;
+   transform: skew(0deg, 5deg) translateY(-320px);
+   background-color: rgb(7, 47, 85);
+   position: relative;
+   padding-bottom: 300px;
+}
+.imageflex
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    transform: skew(0deg, -5deg);
+}
+.imageflex img
+{
+    border-radius: 10px;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    border-style: solid;
+border-color: rgb(255, 0, 255);
+border-width: 3px;
+    
+}
+.interactivemeet .video1 
+{
+    transform: skew(0deg, -5deg);
+    display: flex;
+    margin-left: 40px;
+    
+    
+}
+.interactivemeet .video1 p
+{
+    transform: skew(0deg, 0deg);
+    line-height: 45px;
+    padding-top: 300px;
+}
+
+.interactivemeet h2
+{
+    transform: skew(0deg, -5deg);
+    text-align: center;
+    font-family: poppins;
+    color: azure;
+    padding-top: 40px ;
+    padding-bottom: 200px;
+    font-size: 38px;
+    font-weight: 600;
+}
+.interactivemeet p
+{
+    transform: skew(0deg, -5deg);
+    padding: 80px 100px;
+    font-family: Cormorant Garamond ;
+    font-style: italic;
+    font-size: 28px;
+    max-width: 80%;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    
+    color: rgb(240, 202, 32);
+    text-shadow: 0px 0px 10px #000000;
+    word-spacing: 2px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #302e2ea6;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .8s ease;
+   
+    max-width: 99%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: tomato;
+  }
+  
+  .imageflex:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 34px;
+    text-shadow: 5px 5px rgb(14, 14, 14);
+    max-width: 80%;
+    font-family: poppins;
+    position: absolute;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+.womenspace
+{
+   
+    transform: skew(0deg, 5deg) translateY(-330px);
+    background: linear-gradient(45deg, rgb(244, 248, 23),rgb(253, 132, 237));
+    position: relative;
+    padding-bottom: 200px;
+}
+.womenspace h1
+{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transform: skew(0deg, -5deg);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.womenspace img
+{
+    transform: skew(0deg, -5deg);
+    padding-left:40px;
+    padding-right: 100px;
+    
+    
+}
+.womenspace p
+{
+    transform: skew(0deg, -5deg);
+}
+
+.card
+{
+display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-bottom: 100px;
+  justify-content: center;
+    align-items: center;
+ 
+}
+.card p
+{
+  font-family: poppins;
+  font-size: 26px;
+  margin-bottom: 80px;
+  line-height: 35px;
+  word-spacing: 2px;
+  font-weight: 600;
+  color: rgb(6, 11, 82);
+  max-width: 90%;
+  padding-left: 20px;
+  text-align: justify;
+  padding-right: 20px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: rgba(252, 8, 8, 0.219);
+}
+.card h2
+{
+    transform: skew(0deg, -5deg);
+    padding-bottom: 30px;
+    font-size: 45px;
+    
+    color: rgb(43, 39, 44);
+    padding-left: 20px;
+    font-family: IM Fell DW Pica SC;
+}
+.card:nth-child(3) img{
+    order: 2;
+    padding-bottom: 130px;
+  }
+
+.womenspace .vid2
+{
+    transform: skew(0deg, -5deg);
+    display: flex;
+   
+}  
+.womenspace .vid2 video
+{
+    justify-content: right;
+    align-content: space-around;
+    margin-left: 40px;
+}
+.womenspace .vid2  p
+{
+    transform: skew(0deg, 0deg);
+    padding: 80px 100px;
+    font-family: Cormorant Garamond ;
+    font-style: italic;
+    font-size: 34px;
+   
+    max-width: 80%;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 200px;
+    
+    color: rgb(13, 8, 88);
+    
+}
+
+.expert
+{
+    padding: 100px 0px;
+   transform: skew(0deg, 5deg) translateY(-330px);
+   background: linear-gradient(45deg, rgb(106, 5, 116), rgb(189, 66, 93));
+   position: relative;
+   padding-bottom: 300px;
+}
+.expert h2{
+    padding-top: 60px ;
+    font-family: poppins;
+    font-size: 54px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transform: skew(0deg, -5deg);
+    text-align: center;
+}
+
+.expert .expertcontent
+{
+    transform: skew(0deg, -5deg);
+    padding-top: 160px;
+    padding-bottom: 120px;
+
+}
+.expertcontent 
+{
+    display: flex;
+}
+.expertcontent h1
+{
+    
+    text-align: center;
+    font-family: Caveat;
+    color: rgb(9, 243, 67);
+    padding-top: 40px ;
+    padding-bottom: 80px;
+    font-size: 69px;
+    text-decoration-style: double;
+    text-decoration-color: rgb(179, 112, 243);
+    text-decoration-line: underline;
+    font-weight: 800;
+    margin: 0px 200px;
+}
+.expertcontent p
+{
+    margin: 0px 200px;
+    font-family: Dancing script;
+    color: rgb(243, 227, 9);
+    padding-top: 10px ;
+    padding-bottom: 200px;
+    font-size: 39px;
+    
+    
+}
+.expertcontent img
+{
+    margin-top: 90px;
+    margin-left: 30px;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+   
+    border-style: solid;
+border-color: rgb(89, 0, 255);
+border-width: 3px;
+ 
+}
+
+.expertcontent2
+{
+    display: flex;
+    transform: skew(0deg, -5deg);
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+
+.expertcontent2 h1
+{
+    text-align: center;
+    font-family: Caveat;
+    color: rgb(9, 243, 67);
+    padding-top: 40px ;
+    padding-bottom: 80px;
+    font-size: 50px;
+    text-decoration-style: double;
+    text-decoration-color: rgb(179, 112, 243);
+    text-decoration-line: underline;
+    font-weight: 800;
+    margin: 0px 200px;
+}
+
+.expertcontent2 p
+{
+    margin: 0px 200px;
+    font-family: Dancing script;
+    color: rgb(243, 227, 9);
+    padding-top: 10px ;
+    padding-bottom: 200px;
+    font-size: 39px;
+}
+.expertcontent2 img
+{
+    margin-top: 90px;
+margin-left: 30px;
+box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+   
+border-style: solid;
+border-color: rgb(17, 0, 255);
+border-width: 3px;
+}
+.last
+{
+    background: #07252d;
+    padding: 200px 50px;
+   
+    transform: translateY(-420px);
+}
+.last h1
+{
+    color: #0e3742;
+    font-size: 80px;
+    font-family: IM Fell DW Pica SC;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 0.80em;
+    word-spacing: 4px;
+
+}
+.last h1:hover
+{
+    
+    color: white;
+    text-shadow: 0 0 10px #6fd9fa,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4;
+}
+.footer 
+{
+    margin-bottom: 200px;
+    transform: translateY(-420px);
+    display: flex;
+    background: rgb(3, 3, 3);
+    padding: 100px 200px;
+    
+}
+.footer img
+{
+    border-radius: 10px;
+}
+.footer p
+{
+    color:thistle;
+    font-family: poppins;
+    font-size: larger;
+    margin: 80px 30px;
+
+}
+.sociallogo
+{
+    margin: 80px 30px;
+   
+  
+
+}
+.sociallogo i {
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin-right: 10px;
+	
+	
+	justify-content: center;
+}
+.sociallogo i:hover
+{
+   color: greenyellow;
+}
